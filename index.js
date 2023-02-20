@@ -26,7 +26,7 @@
 const process = require('process');
   
 // Printing process.argv property value
-const input = process.argv[2]
+const input = JSON.parse(process.argv[2])
 
 console.log('Input Recived: ',input)
 
