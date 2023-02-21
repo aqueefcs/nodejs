@@ -66,4 +66,4 @@
 
 
 console.log("name: ", process.env.jsonPaylaod);
-console.log("name: ", process.env.jsonPaylaod[0]);
+
