@@ -23,12 +23,12 @@
 
 // console.log('Input Recived: ',input.name)
 
-const process = require('process');
+// const process = require('process');
   
-// Printing process.argv property value
-const args = process.argv.slice[2]
-const payload = JSON.parse(args)
-console.log('Input Recived: ',payload)
+// // Printing process.argv property value
+// const args = process.argv.slice[2]
+// const payload = JSON.parse(args)
+// console.log('Input Recived: ',payload)
 
 
 // const express = require('express')
@@ -63,3 +63,7 @@ console.log('Input Recived: ',payload)
 //     console.log("App is running...")
 // })
 
+
+
+console.log("name: ", process.env.jsonPaylaod.name);
+console.log("name: ", process.env.jsonPaylaod.name);
