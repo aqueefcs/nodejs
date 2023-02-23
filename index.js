@@ -63,7 +63,7 @@
 //     console.log("App is running...")
 // })
 
-
+require('dotenv/config')
 
 console.log("name: ", process.env.jsonPayload);
 
