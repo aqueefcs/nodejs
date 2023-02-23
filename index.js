@@ -17,11 +17,11 @@
 //     console.log("App is running on port:3000");
 // })
 
-// const process = require('process');
+const process = require('process');
  
-// const input = process.argv[2];
+const input = process.argv[2];
 
-// console.log('Input Recived: ',input.name)
+console.log('Input Recived: ',input.name)
 
 // const process = require('process');
   
@@ -63,7 +63,7 @@
 //     console.log("App is running...")
 // })
 
-require('dotenv/config')
+// require('dotenv/config')
 
-console.log("name: ", process.env.jsonPayload);
+// console.log("name: ", process.env.jsonPayload);
 
