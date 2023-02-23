@@ -1,6 +1,7 @@
 
 
 require('dotenv/config')
-
-console.log("name: ", process.env.payload);
+const jsonPayload = process.env.payload
+console.log("name: ", jsonPayload);
+console.log("name: ", typeof(jsonPayload));
 
