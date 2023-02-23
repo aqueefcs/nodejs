@@ -65,5 +65,5 @@
 
 
 
-console.log("name: ", process.env.jsonPaylaod.name);
+console.log("name: ", process.env.jsonPayload);
 
