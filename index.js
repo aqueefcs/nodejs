@@ -1,7 +1,7 @@
-
-
+const process = require('process');
 require('dotenv/config')
-const jsonPayload = JSON.parse(process.env.payload)
-console.log("name: ", jsonPayload);
-console.log("name: ", typeof(jsonPayload));
+console.log("pay: ",process.argv[2]);
+// const jsonPayload = JSON.parse(process.env.payload)
+// console.log("name: ", jsonPayload);
+// console.log("name: ", typeof(jsonPayload));
 
